@@ -1,0 +1,25 @@
+# Install dlib first, via the prebuilt wheel (see README.md for why):
+#   pip install dlib-bin
+#
+# Then install the rest:
+#   pip install -r requirements.txt
+#   pip install "setuptools<81"   # face_recognition_models needs pkg_resources
+
+face-recognition==1.3.0
+face-recognition-models==0.3.0
+imutils==0.5.4
+numpy
+opencv-python
+pandas
+Pillow
+click
+
+Flask>=2.2.2
+Flask-Bootstrap
+validators
+schedule
+
+google-api-python-client
+google-auth
+google-auth-httplib2
+google-auth-oauthlib

@@ -1,0 +1,12 @@
+venv_win/
+venv/
+__pycache__/
+*.pyc
+
+logs/*.log
+reports/*.csv
+*.log
+
+# Gmail API secrets - never commit these
+src/client_secrets.json
+src/token.json
